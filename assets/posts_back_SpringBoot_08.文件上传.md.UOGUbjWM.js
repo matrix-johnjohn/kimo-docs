@@ -1,0 +1,25 @@
+import{_ as s,c as a,o as e,S as p}from"./chunks/framework.CxtrxKhu.js";const g=JSON.parse('{"title":"AliyunOSS文件上传","description":"","frontmatter":{},"headers":[],"relativePath":"posts/back/SpringBoot/08.文件上传.md","filePath":"posts/back/SpringBoot/08.文件上传.md"}'),i={name:"posts/back/SpringBoot/08.文件上传.md"};function t(l,n,o,r,c,u){return e(),a("div",null,n[0]||(n[0]=[p(`<h1 id="aliyunoss文件上传" tabindex="-1">AliyunOSS文件上传 <a class="header-anchor" href="#aliyunoss文件上传" aria-label="Permalink to &quot;AliyunOSS文件上传&quot;">​</a></h1><h3 id="接收文件" tabindex="-1">接收文件 <a class="header-anchor" href="#接收文件" aria-label="Permalink to &quot;接收文件&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>public static void upload(MultipartFile file) throws IOException, ClientException {</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    String endpoint = &quot;https://oss-cn-hangzhou.aliyuncs.com&quot;;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    String bucketName = &quot;web-tlias-von&quot;;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    String region = &quot;cn-hangzhou&quot;;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    ClientBuilderConfiguration clientBuilderConfiguration = new ClientBuilderConfiguration();</span></span>
+<span class="line"><span>    clientBuilderConfiguration.setSignatureVersion(SignVersion.V4);</span></span>
+<span class="line"><span>    OSS ossClient = OSSClientBuilder.create()</span></span>
+<span class="line"><span>    .endpoint(endpoint)</span></span>
+<span class="line"><span>    .credentialsProvider(credentialsProvider)</span></span>
+<span class="line"><span>    .clientConfiguration(clientBuilderConfiguration)</span></span>
+<span class="line"><span>    .region(region)</span></span>
+<span class="line"><span>    .build();</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    InputStream inputStream = file.getInputStream();</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, file.getOriginalFilename(), inputStream);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    PutObjectResult result = ossClient.putObject(putObjectRequest);</span></span>
+<span class="line"><span>}</span></span></code></pre></div>`,3)]))}const S=s(i,[["render",t]]);export{g as __pageData,S as default};
