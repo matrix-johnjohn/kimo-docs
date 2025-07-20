@@ -1,9 +1,0 @@
-import{_ as s,c as n,o as t,S as e}from"./chunks/framework.CxtrxKhu.js";const _=JSON.parse('{"title":"SpringBoot基础","description":"","frontmatter":{},"headers":[],"relativePath":"posts/back/SpringBoot/04.SpringBoot基础.md","filePath":"posts/back/SpringBoot/04.SpringBoot基础.md"}'),p={name:"posts/back/SpringBoot/04.SpringBoot基础.md"};function o(i,a,r,l,c,d){return t(),n("div",null,a[0]||(a[0]=[e(`<h1 id="springboot基础" tabindex="-1">SpringBoot基础 <a class="header-anchor" href="#springboot基础" aria-label="Permalink to &quot;SpringBoot基础&quot;">​</a></h1><h3 id="接收参数" tabindex="-1">接收参数 <a class="header-anchor" href="#接收参数" aria-label="Permalink to &quot;接收参数&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>ag-0-1j09jv6m4@RequestParam(value = &quot;pageSize&quot;,defaultValue = &quot;10&quot;) #接收普通参数</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>@RequestBody #接收实体对象参数</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>@RequestHeader #接收请求头</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>@PathVariable(&quot;id&quot;) #接收路径参数</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>@DateTimeFormat(pattern = &quot;yyyy-Mag-0-1j09jv6m4ag-1-1j09jv6m4M-dd&quot;) #接收时间参数</span></span></code></pre></div>`,3)]))}const g=s(p,[["render",o]]);export{_ as __pageData,g as default};
