@@ -1,0 +1,46 @@
+# Maven换源
+
+
+
+
+
+## Maven镜像
+
+### 简介
+
+阿里云中央仓库为阿里云云效提供的公共代理仓库，帮助研发人员提高研发生产效率，使用阿里云Maven中央仓库作为下载源，速度更快更稳定。
+
+阿里云云效是企业级一站式 DevOps 平台，覆盖产品从需求到运营的研发全生命周期，其中云效也提供了免费、可靠的Maven私有仓库Packages，欢迎您体验使用。
+
+
+
+### 配置方法
+
+### Maven 配置
+
+打开 Maven 的配置文件(windows机器一般在maven安装目录的conf/settings.xml)，在`<mirrors></mirrors>`标签中添加 mirror 子节点:
+
+````
+<mirror>
+    <id>aliyunmaven</id>
+    <mirrorOf>*</mirrorOf>
+    <name>阿里云公共仓库</name>
+    <url>https://maven.aliyun.com/repository/public</url>
+</mirror>
+````
+
+如果想使用其它代理仓库,可在`<repositories></repositories>`节点中加入对应的仓库使用地址。以使用spring代理仓为例：
+
+`````
+<repository>
+    <id>spring</id>
+    <url>https://maven.aliyun.com/repository/spring</url>
+    <releases>
+        <enabled>true</enabled>
+    </releases>
+    <snapshots>
+        <enabled>true</enabled>
+    </snapshots>
+</repository>
+`````
+
