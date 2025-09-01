@@ -20,7 +20,7 @@
 
 打开 Maven 的配置文件(windows机器一般在maven安装目录的conf/settings.xml)，在`<mirrors></mirrors>`标签中添加 mirror 子节点:
 
-````
+````xml
 <mirror>
     <id>aliyunmaven</id>
     <mirrorOf>*</mirrorOf>
@@ -31,7 +31,7 @@
 
 如果想使用其它代理仓库,可在`<repositories></repositories>`节点中加入对应的仓库使用地址。以使用spring代理仓为例：
 
-`````
+`````xml
 <repository>
     <id>spring</id>
     <url>https://maven.aliyun.com/repository/spring</url>
