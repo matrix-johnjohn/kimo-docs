@@ -1,9 +1,5 @@
 # Node.Js换源
 
-
-
-
-
 ## 配置文件
 
 使用npm指令打开本地的.npmrc配置文件
@@ -11,8 +7,6 @@
 ````
 npm edit config
 ````
-
-
 
 ### 查看当前镜像源
 
@@ -22,13 +16,9 @@ npm edit config
 npm config get registry
 ````
 
-
-
 ## 源
 
 切换镜像源解决墙的问题,确保能够安装脚手架或依赖;
-
-
 
 ### 指令设置
 
@@ -55,8 +45,6 @@ npm config set registry http://mirrors.cloud.tencent.com/npm/
 ````
 npm config set registry https://mirrors.huaweicloud.com/repository/npm/
 ````
-
-
 
 ### 手动换源
 
