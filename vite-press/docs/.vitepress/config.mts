@@ -229,7 +229,7 @@ export default defineConfig({
           { text: '归档', link: '/archives' },
           { text: '全部分类', link: '/categories' },
           { text: '全部标签', link: '/tags' },
-          {text: '需求文档', link: '/require'}
+          { text: '需求文档', link: '/require' }
         ]
       },
       {
@@ -271,7 +271,8 @@ export default defineConfig({
             { text: 'Interceptor', link: '/articles/back/java/Interceptor' },
             { text: 'ThreadLocal', link: '/articles/back/java/ThreadLocal' },
             { text: 'Jsoup', link: '/articles/back/java/Jsoup' },
-            { text: 'JavaMail',link:'/articles/back/java/JavaMail' }
+            { text: 'JavaMail', link: '/articles/back/java/JavaMail' },
+            { text: 'Jedis', link: '/articles/back/java/jedis' }
           ]
         }
       ],
@@ -353,7 +354,7 @@ export default defineConfig({
         {
           text: 'c',
           items: [
-            { text: 'prefix', link: '/articles/server/c/quick-start' },
+            { text: '编程基础', link: '/articles/server/c/quick-start' },
             { text: 'c语言QUICKSTART', link: '/articles/server/c/basic' }
           ]
         }
