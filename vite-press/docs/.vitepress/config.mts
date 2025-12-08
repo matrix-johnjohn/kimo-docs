@@ -253,8 +253,8 @@ export default defineConfig({
       {
         text: '服务端开发',
         items: [
-          { text: 'docker', link: '/articles/server/docker/install' },
           { text: 'c', link: '/articles/server/c/quick-start' },
+          { text: 'docker', link: '/articles/server/docker/install' },
           { text: 'linux', link: '/articles/server/linux/command' }
         ]
       }
@@ -339,6 +339,18 @@ export default defineConfig({
           ]
         }
       ],
+      '/articles/server/c/': [
+        {
+          text: 'c',
+          items: [
+            { text: '环境搭建', link: '/articles/server/c/basic' },
+            { text: '编程基础', link: '/articles/server/c/quick-start' },
+            { text:'参数',link:'/articles/server/c/params' },
+            { text:'流程控制语句',link:'/articles/server/c/control'},
+            { text:'指针与内存',link:'/articles/server/c/pointer'}
+          ]
+        }
+      ],
       '/articles/server/docker/': [
         {
           text: 'Docker',
@@ -348,17 +360,7 @@ export default defineConfig({
             { text: 'Docker容器', link: '/articles/server/docker/20/container' }
           ]
         }
-      ],
-
-      '/articles/server/c/': [
-        {
-          text: 'c',
-          items: [
-            { text: '编程基础', link: '/articles/server/c/quick-start' },
-            { text: 'c语言QUICKSTART', link: '/articles/server/c/basic' }
-          ]
-        }
-      ],
+      ]
     },
 
     socialLinks: [
