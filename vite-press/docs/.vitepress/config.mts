@@ -350,6 +350,8 @@ export default defineConfig({
             { text:'指针与内存',link:'/articles/server/c/pointer'},
             {text:'函数',link:'/articles/server/c/function'},
             {text:'字符串',link:'/articles/server/c/string'},
+            {text:'结构体',link:'/articles/server/c/struct'},
+            {text:'枚举',link:'/articles/server/c/enum'},
             {text:'头文件',link:'/articles/server/c/head'}
           ]
         }
