@@ -354,6 +354,13 @@ export default defineConfig({
             {text:'枚举',link:'/articles/server/c/enum'},
             {text:'头文件',link:'/articles/server/c/head'}
           ]
+        },
+        {
+          text:'数据结构',
+          items:[
+            {text:'线性表',link:'/articles/server/c/linearlist'},
+            {text:'线性表-顺序表',link:'/articles/server/c/sequencelist'}
+          ]
         }
       ],
       '/articles/server/docker/': [
