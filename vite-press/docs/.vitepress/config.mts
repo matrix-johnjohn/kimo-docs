@@ -359,7 +359,8 @@ export default defineConfig({
           text:'数据结构',
           items:[
             {text:'线性表',link:'/articles/server/c/linearlist'},
-            {text:'线性表-顺序表',link:'/articles/server/c/sequencelist'}
+            {text:'线性表-顺序表',link:'/articles/server/c/sequencelist'},
+            {text:'线性表-链表',link:'/articles/server/c/linkedlist'}
           ]
         }
       ],
