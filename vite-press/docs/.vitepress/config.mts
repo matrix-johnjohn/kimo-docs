@@ -294,7 +294,7 @@ export default defineConfig({
         {
           text: '指令',
           items: [
-            { text: 'linux指令', link: '/articles/server/linux/command' },
+            { text: '工具库', link: '/articles/server/linux/command' },
           ]
         },
       ],
