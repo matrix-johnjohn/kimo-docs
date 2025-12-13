@@ -55,7 +55,6 @@ const teekConfig = defineTeekConfig({
     description: [
       "因为失去,所以明白;",
       "每个人都必须找到自己的使命;",
-      "我发现，勇气根本靠不住，只有完全的疯狂才有意义;",
       "我宁可一开始就不认识那个人,也好过相识以后却要生死离别;"
     ], // 描述信息
     switchTime: 4000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
@@ -360,7 +359,8 @@ export default defineConfig({
           items:[
             {text:'线性表',link:'/articles/server/c/linearlist'},
             {text:'线性表-顺序表',link:'/articles/server/c/sequencelist'},
-            {text:'线性表-链表',link:'/articles/server/c/linkedlist'}
+            {text:'线性表-链表',link:'/articles/server/c/linkedlist'},
+            {text:'线性表-双向链表',link:'/articles/server/c/dullinkedlist'},
           ]
         }
       ],
