@@ -30,8 +30,8 @@ const teekConfig = defineTeekConfig({
   sidebarTrigger: true,
   windowTransition: true,
   author: {
-    name: "Teeker", // 作者名称
-    link: "https://github.com/Kele-Bingtang", // 点击作者名称后跳转的链接
+    name: "kimo", // 作者名称
+    link: "https://github.com/matrix-johnjohn", // 点击作者名称后跳转的链接
   },
   banner: {
     enabled: true, // 是否启用 Banner
@@ -355,12 +355,19 @@ export default defineConfig({
           ]
         },
         {
-          text:'数据结构',
+          text:'线性表',
           items:[
             {text:'线性表',link:'/articles/server/c/linearlist'},
             {text:'线性表-顺序表',link:'/articles/server/c/sequencelist'},
             {text:'线性表-链表',link:'/articles/server/c/linkedlist'},
             {text:'线性表-双向链表',link:'/articles/server/c/dullinkedlist'},
+          ]
+        },
+        {
+          text:'队列和栈',
+          items:[
+            {text:'栈',link:'/articles/server/c/ds/stack'},
+            {text:'队列',link:'/articles/server/c/ds/queue'}
           ]
         }
       ],
