@@ -293,7 +293,7 @@ export default defineConfig({
         {
           text: '指令',
           items: [
-            { text: '工具库', link: '/articles/server/linux/command' },
+            { text: '禁止休眠', link: '/articles/server/linux/command' },
           ]
         },
       ],
@@ -369,7 +369,13 @@ export default defineConfig({
             {text:'栈',link:'/articles/server/c/ds/stack'},
             {text:'队列',link:'/articles/server/c/ds/queue'}
           ]
-        }
+        },
+        {
+          text:'树和二叉树',
+          items:[
+            {text:'树',link:'/articles/server/c/ds/tree'},
+          ]
+        },
       ],
       '/articles/server/docker/': [
         {
