@@ -393,7 +393,8 @@ export default defineConfig({
             {text:'树',link:'/articles/server/c/ds/tree'},
             {text:'二叉树',link:'/articles/server/c/ds/binarytree'},
             {text:'线索二叉树',link:'/articles/server/c/ds/cluebinarytree'},
-            {text:'树和森林',link:'/articles/server/c/ds/treeex'}
+            {text:'树和森林',link:'/articles/server/c/ds/treeex'},
+            {text:'哈夫曼树',link:'/articles/server/c/ds/huffmantree'}
           ]
         },
       ],
