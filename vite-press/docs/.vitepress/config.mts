@@ -253,6 +253,7 @@ export default defineConfig({
         text: '服务端开发',
         items: [
           { text: 'c', link: '/articles/server/c/quick-start' },
+          { text: 'cpp', link: '/articles/server/cpp/quick-start' },
           { text: 'docker', link: '/articles/server/docker/install' },
           { text: 'linux', link: '/articles/server/linux/command' }
         ]
@@ -338,6 +339,22 @@ export default defineConfig({
           ]
         }
       ],
+      '/articles/server/cpp/':[
+        {
+          text:'语言基础',
+          items:[
+            { text: '快速入门', link: '/articles/server/cpp/quick-start' },
+            { text:'引用',link:'/articles/server/cpp/reference' },
+          ]
+        },
+        {
+          text:'面向对象编程',
+          items:[
+            { text:'类',link:'/articles/server/cpp/class' },
+            {text:'继承',link:'/articles/server/cpp/extend'}
+          ]
+        }
+      ],
       '/articles/server/c/': [
         {
           text: 'c',
@@ -374,6 +391,9 @@ export default defineConfig({
           text:'树和二叉树',
           items:[
             {text:'树',link:'/articles/server/c/ds/tree'},
+            {text:'二叉树',link:'/articles/server/c/ds/binarytree'},
+            {text:'线索二叉树',link:'/articles/server/c/ds/cluebinarytree'},
+            {text:'树和森林',link:'/articles/server/c/ds/treeex'}
           ]
         },
       ],
