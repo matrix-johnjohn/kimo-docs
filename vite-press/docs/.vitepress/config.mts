@@ -397,6 +397,12 @@ export default defineConfig({
             {text:'哈夫曼树',link:'/articles/server/c/ds/huffmantree'}
           ]
         },
+        {
+          text:'图',
+          items:[
+            {text:'图',link:'/articles/server/c/ds/graph/base'}
+          ]
+        }
       ],
       '/articles/server/docker/': [
         {
