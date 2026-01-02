@@ -255,7 +255,7 @@ export default defineConfig({
           { text: 'c', link: '/articles/server/c/quick-start' },
           { text: 'cpp', link: '/articles/server/cpp/quick-start' },
           { text: 'docker', link: '/articles/server/docker/install' },
-          { text: 'linux', link: '/articles/server/linux/command' }
+          { text: 'linux', link: '/articles/server/linux/git' }
         ]
       }
     ],
@@ -276,25 +276,13 @@ export default defineConfig({
           ]
         }
       ],
-      '/articles/food/': [
-        {
-          text: '甜的',
-          items: [
-            { text: '姜撞奶', link: '/articles/food/dessert/index.md' },
-          ]
-        },
-        {
-          text: '咸的',
-          items: [
-            { text: '豉油鸡', link: '/articles/food/salty/index.md' },
-          ]
-        }
-      ],
       '/articles/server/linux': [
         {
           text: '指令',
           items: [
-            { text: '禁止休眠', link: '/articles/server/linux/command' },
+            {text:'系统网络',link:'/articles/server/cpp/sysnetwork'},
+            { text:'远程连接',link:'/articles/server/cpp/ssh' },
+            { text: 'git', link: '/articles/server/linux/git' },
           ]
         },
       ],
@@ -352,6 +340,14 @@ export default defineConfig({
           items:[
             { text:'类',link:'/articles/server/cpp/class' },
             {text:'继承',link:'/articles/server/cpp/extend'}
+          ]
+        },
+        {
+          text:'高级特性',
+          items:[
+            {text:'命名空间',link:'/articles/server/cpp/namespace'},
+            {text:'泛型',link:'/articles/server/cpp/template'},
+            
           ]
         }
       ],
