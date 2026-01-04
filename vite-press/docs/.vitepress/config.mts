@@ -278,13 +278,19 @@ export default defineConfig({
       ],
       '/articles/server/linux': [
         {
-          text: '指令',
+          text: '基础指令',
           items: [
             {text:'系统网络',link:'/articles/server/cpp/sysnetwork'},
             { text:'远程连接',link:'/articles/server/cpp/ssh' },
-            { text: 'git', link: '/articles/server/linux/git' },
+            {text:'文件操作',link:'/articles/server/linux/file'}
           ]
         },
+        {
+          text:'服务端相关',
+          items:[
+            {text:'git指令',link:'/articles/server/linux/git'},
+          ]
+        }
       ],
       '/articles/back/Mybatis/': [
         {
