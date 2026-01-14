@@ -197,6 +197,9 @@ export default defineConfig({
   base: '/kimo-blogger',
   extends: teekConfig,
   title: "Kimo Blogger",
+  head:[
+    ['link',{rel:'icon',href:'code.png'}]
+  ],
   themeConfig: {
     search: {
       provider: 'local',
@@ -260,7 +263,7 @@ export default defineConfig({
         text: '底层开发',
         items: [
           { text: 'c', link: '/articles/server/c/quick-start' },
-          { text: 'cpp', link: '/articles/server/cpp/quick-start' },
+          { text: 'cpp', link: '/articles/server/cpp/reference' },
         ]
       }
     ],
@@ -342,8 +345,14 @@ export default defineConfig({
         {
           text:'语言基础',
           items:[
-            { text: '快速入门', link: '/articles/server/cpp/quick-start' },
+            { text:'数据',link:'/articles/server/cpp/params' },
+            { text:'流程控制语句',link:'/articles/server/cpp/control'},
+            { text:'指针与内存',link:'/articles/server/cpp/pointer' },
             { text:'引用',link:'/articles/server/cpp/reference' },
+            { text:'函数',link:'/articles/server/cpp/function' },
+            { text: '字符串',link:'/articles/server/cpp/string' },
+            { text:'结构体',link:'/articles/server/cpp/struct' },
+            { text:'枚举',link:'/articles/server/cpp/enum' }
           ]
         },
         {
@@ -371,11 +380,11 @@ export default defineConfig({
             { text:'数据',link:'/articles/server/c/params' },
             { text:'流程控制语句',link:'/articles/server/c/control'},
             { text:'指针与内存',link:'/articles/server/c/pointer'},
-            {text:'函数',link:'/articles/server/c/function'},
-            {text:'字符串',link:'/articles/server/c/string'},
-            {text:'结构体',link:'/articles/server/c/struct'},
-            {text:'枚举',link:'/articles/server/c/enum'},
-            {text:'头文件',link:'/articles/server/c/head'}
+            { text:'函数',link:'/articles/server/c/function' },
+            { text:'字符串',link:'/articles/server/c/string' },
+            { text:'结构体',link:'/articles/server/c/struct' },
+            { text:'枚举',link:'/articles/server/c/enum' },
+            { text:'头文件',link:'/articles/server/c/head' }
           ]
         },
         {
@@ -395,6 +404,13 @@ export default defineConfig({
           ]
         },
         {
+          text: '字符串',
+          items:[
+            {text:'暴力匹配',link:'/articles/server/c/ds/bf'},
+            {text:'kmp算法',link:'/articles/server/c/ds/kmp'},
+          ]
+        },
+        {
           text:'树和二叉树',
           items:[
             {text:'树',link:'/articles/server/c/ds/tree'},
@@ -404,6 +420,7 @@ export default defineConfig({
             {text:'哈夫曼树',link:'/articles/server/c/ds/huffmantree'}
           ]
         },
+        
         {
           text:'图',
           items:[
