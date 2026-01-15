@@ -420,11 +420,38 @@ export default defineConfig({
             {text:'哈夫曼树',link:'/articles/server/c/ds/huffmantree'}
           ]
         },
-        
         {
           text:'图',
           items:[
             {text:'图',link:'/articles/server/c/ds/graph/base'}
+          ]
+        },
+        {
+          text:'查找',
+          items:[
+            {
+              text:'线性表的查找',items:[
+                {text:'线性查找',link:'/articles/server/c/ds/search/linear'},
+                {text:'二分查找',link:'/articles/server/c/ds/search/binary'},
+              ]
+            },
+            {
+              text:'树表的查找',items:[
+                {text:'二叉排序树',link:'/articles/server/c/ds/search/bts'},
+                {text:'平衡二叉树',link:'/articles/server/c/ds/search/bbts'},
+                {text:'红黑树',link:'/articles/server/c/ds/search/rbts'},
+                {text:'B-树',link:'/articles/server/c/ds/search/bsub'},
+                {text:'B+树',link:'/articles/server/c/ds/search/bplus'},
+              ]
+            },
+            {
+              text:'哈希表',items:[
+                {text:'散列表',link:'/articles/server/c/ds/search/linear'},
+                {text:'散列表的构造方法',link:'/articles/server/c/ds/search/binary'},
+                {text:'处理冲突的方法',link:'/articles/server/c/ds/search/binary'},
+                {text:'散列表的查找',link:'/articles/server/c/ds/search/binary'}
+              ]
+            },
           ]
         }
       ],
