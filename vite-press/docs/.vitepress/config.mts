@@ -446,10 +446,8 @@ export default defineConfig({
             },
             {
               text:'哈希表',items:[
-                {text:'散列表',link:'/articles/server/c/ds/search/linear'},
-                {text:'散列表的构造方法',link:'/articles/server/c/ds/search/binary'},
-                {text:'处理冲突的方法',link:'/articles/server/c/ds/search/binary'},
-                {text:'散列表的查找',link:'/articles/server/c/ds/search/binary'}
+                {text:'顺序散列表',link:'/articles/server/c/ds/search/hashmap'},
+                {text:'链式散列表',link:'/articles/server/c/ds/search/linkhashmap'}
               ]
             },
           ]
