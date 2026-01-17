@@ -423,7 +423,9 @@ export default defineConfig({
         {
           text:'图',
           items:[
-            {text:'图',link:'/articles/server/c/ds/graph/base'}
+            {text:'图',link:'/articles/server/c/ds/graph/base'},
+            {text:'邻接矩阵',link:'/articles/server/c/ds/graph/matrixss'},
+            {text:'邻接表',link:'/articles/server/c/ds/graph/lists'},
           ]
         },
         {
