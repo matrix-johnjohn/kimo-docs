@@ -426,6 +426,10 @@ export default defineConfig({
             {text:'图',link:'/articles/server/c/ds/graph/base'},
             {text:'邻接矩阵',link:'/articles/server/c/ds/graph/matrixss'},
             {text:'邻接表',link:'/articles/server/c/ds/graph/lists'},
+            {text:'最小生成树',link:'/articles/server/c/ds/graph/generatetree'},
+            {text:'最短路径',link:'/articles/server/c/ds/graph/minrouter'},
+            {text:'拓扑排序',link:'/articles/server/c/ds/graph/topia_sort'},
+            {text:'关键路径',link:'/articles/server/c/ds/graph/keyrouter'},
           ]
         },
         {
