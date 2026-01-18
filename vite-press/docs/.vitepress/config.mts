@@ -457,6 +457,9 @@ export default defineConfig({
               ]
             },
           ]
+        },
+        {
+          text:'排序'
         }
       ],
       '/articles/server/docker/': [
