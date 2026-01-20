@@ -459,7 +459,13 @@ export default defineConfig({
           ]
         },
         {
-          text:'排序'
+          text:'排序',items:[
+            { text:'插入排序',link:'/articles/server/c/ds/search/insertionsort' },
+            { text:'选择排序',link:'/articles/server/c/ds/search/selectionsort' },
+            { text:'冒泡排序',link:'/articles/server/c/ds/search/bubblesort' },
+            { text:'快速排序',link:'/articles/server/c/ds/search/quicksort' },
+            { text:'归并排序',link:'/articles/server/c/ds/search/mergesort' }
+          ]
         }
       ],
       '/articles/server/docker/': [
