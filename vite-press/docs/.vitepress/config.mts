@@ -388,6 +388,10 @@ export default defineConfig({
           ]
         },
         {
+          text:'文件操作',
+          items:[]
+        },
+        {
           text:'线性表',
           items:[
             {text:'线性表',link:'/articles/server/c/linearlist'},
@@ -399,8 +403,21 @@ export default defineConfig({
         {
           text:'队列和栈',
           items:[
-            {text:'栈',link:'/articles/server/c/ds/stack'},
-            {text:'队列',link:'/articles/server/c/ds/queue'}
+            {
+              text:'栈',
+              items:[
+                { text:'顺序栈',link:'/articles/server/c/ds/sequencestack' },
+                { text:'链栈',link:'/articles/server/c/ds/linkstack' },
+              ]
+            },
+            {
+              text:'队列',
+              items:[
+                {text:'顺序队列',link:'/articles/server/c/ds/sequencequeue'},
+                {text:'链队列',link:'/articles/server/c/ds/linkqueue'},
+              ]
+            },
+            
           ]
         },
         {
