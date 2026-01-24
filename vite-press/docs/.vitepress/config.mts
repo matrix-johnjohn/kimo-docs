@@ -389,15 +389,29 @@ export default defineConfig({
         },
         {
           text:'文件操作',
-          items:[]
+          items:[
+            {text:'文件操作',link:'/articles/server/c/file/index'},
+            {text:'文件写入',link:'/articles/server/c/file/write'},
+            {text:'文件读出',link:'/articles/server/c/file/read'}
+          ]
         },
         {
           text:'线性表',
           items:[
-            {text:'线性表',link:'/articles/server/c/linearlist'},
-            {text:'线性表-顺序表',link:'/articles/server/c/sequencelist'},
-            {text:'线性表-链表',link:'/articles/server/c/linkedlist'},
-            {text:'线性表-双向链表',link:'/articles/server/c/dullinkedlist'},
+            {text:'线性表的存储结构',link:'/articles/server/c/linearlist'},
+            {
+              text:'顺序表',
+              items:[
+                {text:'顺序表',link:'/articles/server/c/sequencelist'},
+              ]
+            },
+            {
+              text:'链表',
+              items:[
+                {text:'单链表',link:'/articles/server/c/linkedlist'},
+                {text:'双向链表',link:'/articles/server/c/dullinkedlist'},
+              ]
+            }
           ]
         },
         {
@@ -415,6 +429,7 @@ export default defineConfig({
               items:[
                 {text:'顺序队列',link:'/articles/server/c/ds/sequencequeue'},
                 {text:'链队列',link:'/articles/server/c/ds/linkqueue'},
+                {text:'优先级队列',link:'/articles/server/c/ds/priorityqueue'}
               ]
             },
             
