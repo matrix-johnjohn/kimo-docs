@@ -376,8 +376,8 @@ export default defineConfig({
         {
           text: 'c',
           items: [
-            { text: '环境搭建', link: '/articles/server/c/basic' },
             { text: '编程基础', link: '/articles/server/c/quick-start' },
+            { text: '环境搭建', link: '/articles/server/c/basic' },
             {text:'输出语句',link:'/articles/server/c/output'},
             { text:'数据',link:'/articles/server/c/params' },
             { text:'复合语句',link:'/articles/server/c/complex' },
