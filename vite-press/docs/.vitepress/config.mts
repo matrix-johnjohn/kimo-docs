@@ -254,14 +254,15 @@ export default defineConfig({
         ]
       },
       {
-        text: '服务端',
+        text: '服务器端',
         items: [
+          { text: 'linux', link: '/articles/server/cpp/sysnetwork' },
           { text: 'docker', link: '/articles/server/docker/install' },
-          { text: 'linux', link: '/articles/server/linux/git' }
+          
         ]
       },
       {
-        text: '底层开发',
+        text: '硬件开发',
         items: [
           { text: 'c', link: '/articles/server/c/quick-start' },
           { text: 'cpp', link: '/articles/server/cpp/reference' },
