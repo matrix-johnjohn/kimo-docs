@@ -248,9 +248,10 @@ export default defineConfig({
       {
         text: '后端开发',
         items: [
-          { text: 'java', link: '/articles/back/spring/java/quickstart' },
-          { text: 'spring', link: '/articles/back/spring/00maven' },
-          { text: 'mybatis', link: '/backend/mybatis/04mybatis-settings' }
+          { text: 'Java SE', link: '/articles/back/spring/java/quickstart' },
+          { text:'SpringBoot',link:'/articles/back/springboot/maven' },
+          { text: 'SpringCloud', link: '/articles/back/spring/00maven' },
+          { text: 'Mybatis', link: '/backend/mybatis/04mybatis-settings' }
         ]
       },
       {
@@ -310,14 +311,23 @@ export default defineConfig({
           ]
         }
       ],
-      '/articles/back/spring/': [
+      '/articles/back/SpringBoot/':[
         {
-          text: 'Spring',
+          text:'SpringBoot搭建',
+          items:[
+            {text:'Maven配置',link:'/articles/back/springboot/maven'},
+            {text:'SpringBoot配置文件',link:'/articles/back/springboot/springboot'}
+          ]
+        }
+
+      ],
+      '/articles/back/SpringCloud/': [
+        {
+          text: 'SpringCloud搭建',
           items: [
             { text: 'Maven换源', link: '/articles/back/spring/00maven' },
-            { text: 'springboot搭建', link: '/articles/back/spring/05springbootBuild' },
-            { text: 'springcloud', link: '/articles/back/spring/cloud/15' },
-            { text: 'springcloud搭建', link: '/articles/back/spring/16springcloudBuild' },
+            { text: 'springcloud技术', link: '/articles/back/spring/cloud/15' },
+            { text: 'springcloud父工程搭建', link: '/articles/back/spring/16springcloudBuild' },
             { text: 'Nacos注册中心搭建', link: '/articles/back/spring/17nacos' },
             { text: 'OpenFeign负载均衡', link: '/articles/back/spring/18openFeign/' },
             { text: 'GateWay网关搭建', link: '/articles/back/spring/19Gateway' },
@@ -394,7 +404,7 @@ export default defineConfig({
         {
           text:'文件操作',
           items:[
-            {text:'文件操作',link:'/articles/server/c/file/index'},
+            {text:'文件操作',link:'/articles/server/c/file/base'},
             {text:'文件写入',link:'/articles/server/c/file/write'},
             {text:'文件读出',link:'/articles/server/c/file/read'}
           ]
